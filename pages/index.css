@@ -6,5 +6,7 @@
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 /*when using Noto Serif, fall back on Times New Roman, then serif.*/
