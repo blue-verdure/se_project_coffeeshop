@@ -56,7 +56,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: auto;
+  width: 100%;
   z-index: 0;
 }
 
@@ -94,6 +94,7 @@
 .header__description {
   flex-basis: 100%;
   max-width: 683px;
+  height: 100px;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -105,8 +106,18 @@
 }
 
 .header__footer {
-  margin-top: 770px;
+  margin-top: 0px;
   margin-left: 80px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__footer_paragraph {
+}
+
+.header__footer_paragraph:last-child {
+  justify-self: flex-end;
 }
 
 .content {
