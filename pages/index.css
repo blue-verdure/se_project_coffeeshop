@@ -106,18 +106,28 @@
 }
 
 .header__footer {
-  margin-top: 0px;
+  display: flex;
+  align-items: left;
+  flex-wrap: wrap;
+  margin-top: 165px;
   margin-left: 80px;
   width: 100%;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
 }
 
-.header__footer_paragraph {
+.header__footer-item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  width: 51%;
 }
 
-.header__footer_paragraph:last-child {
-  justify-self: flex-end;
+.header__footer-item:nth-of-type(4) {
+  width: 49%;
 }
 
 .content {
