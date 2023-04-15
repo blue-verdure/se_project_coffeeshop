@@ -8,6 +8,7 @@
   line-height: 20px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0px;
 }
 /*when using Noto Serif, fall back on Times New Roman, then serif.*/
 .header {
@@ -18,9 +19,10 @@
   background-position: center;
   position: relative;
   display: flex;
+  flex-direction: column;
 }
 
-.header__icon {
+.logo {
   width: 125px;
   height: 142px;
   position: absolute;
@@ -29,21 +31,20 @@
 }
 
 .nav {
-  position: absolute;
-  top: 30px;
-  right: 80px;
+  margin-left: auto;
+  margin-right: 80px;
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-self: flex-end;
   max-width: 400px;
+  z-index: 1;
 }
 
 .nav__links {
-  justify-self: flex-end;
+  margin-left: auto;
   display: flex;
   list-style: none;
-  margin-top: 30px;
-  margin-right: 80px;
   column-gap: 20px;
 }
 
