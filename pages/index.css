@@ -63,7 +63,7 @@
 .header__title {
   margin-top: 235px;
   margin-left: 80px;
-  margin-bottom: 29px;
+  margin-bottom: 28px;
   max-width: 729px;
   flex-basis: 100%;
   text-align: left;
@@ -93,6 +93,15 @@
 
 .header__description {
   flex-basis: 100%;
+  max-width: 683px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 80px;
+  margin-top: 0;
+  max-height: 568px;
 }
 
 .header__footer {
