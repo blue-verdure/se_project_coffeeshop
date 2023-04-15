@@ -32,8 +32,9 @@
 
 .nav {
   margin-left: auto;
-  margin-right: 80px;
-  margin-top: 30px;
+  position: absolute;
+  right: 80px;
+  top: 30px;
   display: flex;
   justify-content: space-between;
   align-self: flex-end;
