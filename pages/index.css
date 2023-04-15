@@ -111,6 +111,7 @@
   flex-wrap: wrap;
   margin-top: 165px;
   margin-left: 80px;
+  margin-right: 80px;
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
@@ -128,6 +129,8 @@
 
 .header__footer-item:nth-of-type(4) {
   width: 49%;
+  margin-left: auto;
+  text-align: right;
 }
 
 .content {
