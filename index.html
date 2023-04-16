@@ -83,28 +83,80 @@
               allowfullscreen
             ></iframe>
             <iframe
-              class="recipes recipes__videos recipes__iframe"
+              class="recipes__videos recipes__iframe"
               src="https://www.youtube.com/embed/st571DYYTR8"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
-            <div class="recipes recipes__videos recipes__videos_caption">
+            <div class="recipes__videos recipes__videos_caption">
               Aeropress recipe
             </div>
-            <div class="recipes recipes__videos recipes__videos_caption">
-              ~5 min
-            </div>
-            <div class="recipes recipes__videos recipes__videos_caption">
+            <div class="recipes__videos recipes__videos_caption">~5 min</div>
+            <div class="recipes__videos recipes__videos_caption">
               French press recipe
             </div>
-            <div class="recipes recipes__videos recipes__videos_caption">
-              ~15 min
-            </div>
+            <div class="recipes__videos recipes__videos_caption">~15 min</div>
+          </div>
+        </section>
+        <section class="reservation" id="table">
+          <h2 class="reservation reservation__title">Book a table</h2>
+          <div class="reservation reservation__form">
+            <form class="form">
+              <fieldset class="form form__fieldset">
+                <label class="form__label" for="name-input">Name *</label>
+                <input
+                  class="form__input"
+                  type="text"
+                  id="name-input"
+                  placeholder="Name Surname"
+                  required
+                />
+                <label class="form__label" for="num-guests"
+                  >Number of guests *</label
+                >
+                <input
+                  class="form__input"
+                  type="number"
+                  id="num-guests"
+                  placeholder="1-8"
+                  min="1"
+                  max="8"
+                  required
+                />
+                <label class="form__label" for="date-time">Date & time *</label>
+                <input
+                  class="form__input"
+                  type="datetime-local"
+                  id="date-time"
+                  required
+                />
+                <label class="form__label" for="email-input">Name *</label>
+                <input
+                  class="form__input"
+                  type="email"
+                  id="email-input"
+                  placeholder="email@email.com"
+                />
+                <button class="form__button" for="sub-button" type="submit">
+                  Book a table
+                </button>
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <input
+                  class="form__checkbox"
+                  type="checkbox"
+                  id="agree-check"
+                  vlaue="false"
+                />
+                <label class="form__label" for="agree-check"
+                  >I agree with the terms of use</label
+                >
+              </fieldset>
+            </form>
           </div>
         </section>
         <section class="menu" id="menu"></section>
-        <section class="reservation" id="table"></section>
         <section class="about" id="contacts"></section>
       </main>
       <footer class="footer"></footer>
