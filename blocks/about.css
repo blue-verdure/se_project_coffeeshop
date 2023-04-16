@@ -1,0 +1,47 @@
+.about {
+  background-color: #0a2850;
+}
+
+.about .about__title {
+  position: relative;
+  top: 100px;
+  left: 80px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 251px;
+  color: white;
+  z-index: 2;
+  margin-top: 0px;
+}
+
+.about .about__content {
+  padding-top: 19px;
+  padding-right: 80px;
+  margin-left: auto;
+  padding-bottom: 173px;
+  max-width: 660px;
+}
+
+.about .about__paragraph {
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+}
+
+.about .about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: relative;
+  top: -152px;
+  left: -129px;
+}
