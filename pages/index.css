@@ -175,6 +175,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1000px;
+  margin: auto;
 }
 
 .recipe__video_iframe {
