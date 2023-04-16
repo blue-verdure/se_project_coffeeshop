@@ -61,7 +61,6 @@
   align-items: flex-start;
   width: 100%;
   z-index: 0;
-  box-sizing: 720px 800px;
   padding-bottom: 40px;
 }
 
@@ -113,7 +112,6 @@
 
 .header__footer {
   display: flex;
-  align-items: left;
   flex-wrap: wrap;
   margin-top: 165px;
   margin-left: 80px;
@@ -147,7 +145,7 @@
   background-image: url(../images/background_recipes.svg);
   background-position: center;
   background-size: cover;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-color: #0a2750;
   color: white;
 }
