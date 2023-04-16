@@ -64,7 +64,7 @@
   padding-bottom: 40px;
 }
 
-.header__title {
+.header .header__title {
   margin-top: 235px;
   margin-left: 80px;
   margin-bottom: 28px;
@@ -78,7 +78,7 @@
   line-height: 72px;
 }
 
-.header__title .header__title_span-accent {
+.header .header__title .header__title_span-accent {
   display: block;
   font-family: "Noto Serif";
   font-style: italic;
@@ -167,7 +167,7 @@
   margin-bottom: 80px;
 }
 
-.recipe .recipe__videos {
+.recipe .recipe__video {
   padding-bottom: 215px;
   display: flex;
   flex-wrap: wrap;
