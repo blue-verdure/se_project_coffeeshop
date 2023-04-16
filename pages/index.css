@@ -216,7 +216,7 @@
   flex-direction: column;
 }
 
-.reservation .reservation__title {
+.reservation__title {
   margin-bottom: 80px;
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
@@ -229,7 +229,7 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
-.reservation .reservation__form {
+.reservation__form {
   padding-top: 0px;
   margin-bottom: 120px;
   background-image: none;
