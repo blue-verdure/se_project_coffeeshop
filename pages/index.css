@@ -236,7 +236,7 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
-.form {
+.reservation .form {
   max-width: 385px;
   display: flex;
   align-items: center;
