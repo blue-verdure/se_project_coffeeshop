@@ -176,14 +176,14 @@
   margin: auto;
 }
 
-.recipes .recipes__videos .recipe__videos_iframe {
+.recipes .recipes__iframe {
   width: 480px;
   height: 273px;
   border: none;
   padding-bottom: 24px;
 }
 
-.recipes .recipes__videos .recipe__videos-iframe:nth-of-type(1) {
+.recipes .recipes__iframe:nth-of-type(1) {
   padding-right: 40px;
   padding-bottom: 24px;
 }
