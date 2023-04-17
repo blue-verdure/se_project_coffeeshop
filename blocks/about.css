@@ -1,5 +1,7 @@
 .about {
   background-color: #0a2850;
+  position: relative;
+  overflow: hidden;
 }
 
 .about .about__title {
@@ -41,7 +43,24 @@
   width: 426px;
   height: 426px;
   border-radius: 50%;
-  position: relative;
+  position: absolute;
   top: -152px;
   left: -129px;
+}
+
+.about .about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.25);
+    opacity: 0;
+  }
 }

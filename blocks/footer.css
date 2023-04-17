@@ -1,0 +1,72 @@
+.footer {
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  padding-top: 60px;
+}
+
+.footer__content {
+  position: relative;
+  margin-left: 80px;
+  margin-right: 100px;
+  margin-bottom: 108px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.footer__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 116px;
+  height: 21px;
+}
+
+.footer__social-heading {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.footer__list {
+  margin-right: 0px;
+  margin-left: auto;
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.footer__list-item {
+  margin-top: 16px;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.footer__social-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+}
+
+.footer__copyright {
+  padding-bottom: 60px;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 80px;
+}
