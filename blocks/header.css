@@ -22,7 +22,7 @@
   max-width: 729px;
   flex-basis: 100%;
   text-align: left;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -31,7 +31,7 @@
 
 .header .header__title .header__title_span-accent {
   display: block;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -54,7 +54,7 @@
   flex-basis: 100%;
   max-width: 683px;
   height: 100px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
