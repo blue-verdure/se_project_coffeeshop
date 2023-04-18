@@ -81,7 +81,7 @@
   justify-content: space-between;
 }
 
-.header__footer_paragraph {
+.header__paragraph {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -91,7 +91,7 @@
   width: 51%;
 }
 
-.header__footer_paragraph:nth-last-of-type(odd) {
+.header__paragraph:nth-last-of-type(odd) {
   width: 49%;
   height: 20px;
   margin-left: auto;
