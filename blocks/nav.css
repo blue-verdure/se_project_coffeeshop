@@ -1,17 +1,16 @@
 .nav {
   margin-left: auto;
-  position: absolute;
-  right: 80px;
-  top: 30px;
+  margin-right: 80px;
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   align-self: flex-end;
-  max-width: 400px;
   z-index: 1;
 }
 
 .nav__links {
-  margin-left: auto;
+  margin: 0px 0px 0px 0px;
+  padding-left: 0px;
   display: flex;
   list-style: none;
   column-gap: 20px;

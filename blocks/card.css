@@ -1,6 +1,5 @@
 .card {
   width: 540px;
-  margin-bottom: 100px;
 }
 
 .card .card__title {
@@ -10,20 +9,20 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .card .card__list {
   list-style: none;
-  padding: 0;
-}
-
-.card:nth-of-type(1) {
-  margin-right: 100px;
+  margin: 0px 0px 0px 0px;
+  padding-left: 0px;
+  width: 540px;
 }
 
 .card .card__list .card__list-item {
   display: flex;
-  width: 540px;
   margin-bottom: 16px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
@@ -38,5 +37,5 @@
   border-bottom-style: solid;
   margin-left: 8px;
   margin-right: 8px;
-  height: 16px;
+  height: 16px; /* I did this to move the border so that it's closer to the text vertically.  In the brief, the line appears this way.  I would rather not remove it if that's okay*/
 }

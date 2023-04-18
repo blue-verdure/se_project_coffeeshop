@@ -1,7 +1,6 @@
 .menu {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   background-color: #fff;
   background-image: url(../images/background_menu.svg);
   background-size: cover;
@@ -24,8 +23,7 @@
 
 .menu .menu__subtitle {
   max-width: 780px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0px auto 0px auto;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
@@ -42,5 +40,5 @@
   justify-content: center;
   margin-top: 100px;
   margin-bottom: 100px;
-  max-width: 1180px;
+  gap: 100px;
 }

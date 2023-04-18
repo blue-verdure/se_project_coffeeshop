@@ -6,21 +6,22 @@
   background-position: center;
   position: relative;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
   z-index: 0;
-  padding-bottom: 40px;
+  box-sizing: border-box;
+  min-height: 720px;
+  max-height: 800px;
 }
 
-.header .header__title {
-  margin-top: 235px;
+.header__title {
+  margin-top: 202px;
   margin-left: 80px;
   margin-bottom: 28px;
+  margin-right: 646px;
   max-width: 729px;
-  flex-basis: 100%;
   text-align: left;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -29,7 +30,7 @@
   line-height: 72px;
 }
 
-.header .header__title .header__title_span-accent {
+.header__title .header__title_span-accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
@@ -41,10 +42,11 @@
   padding-bottom: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-right: 0px;
 }
 .header__image {
   position: absolute;
-  top: 124px;
+  top: 96px; /*top position of 124 is too much when w=646. Only leaves 30px*/
   right: 5px;
   width: 646px;
   height: 568px;
@@ -61,23 +63,26 @@
   line-height: 30px;
   margin-left: 80px;
   margin-top: 0;
-  max-height: 568px;
-  margin-right: 40%;
+  margin-right: 646px; /*You said the margin is unnecessary, but I set it to the image width in order to prevent any overflow into the image*/
+  margin-bottom: 0px;
 }
 
 .header__footer {
+  justify-self: flex-end;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 165px;
-  margin-left: 80px;
-  margin-right: 80px;
-  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 40px;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.header__footer-item {
-  font-family: "Inter";
+.header__footer_paragraph {
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -86,8 +91,9 @@
   width: 51%;
 }
 
-.header__footer-item:nth-of-type(4) {
+.header__footer_paragraph:nth-last-of-type(odd) {
   width: 49%;
+  height: 20px;
   margin-left: auto;
   text-align: right;
 }
