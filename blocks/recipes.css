@@ -57,7 +57,7 @@
   padding-bottom: 24px;
 }
 
-.recipes__videos_caption {
+.recipes__video-caption {
   padding-bottom: 0px;
   margin-left: 0px;
   margin-right: 40px;
@@ -71,9 +71,9 @@
   font-size: 20px;
   line-height: 30px;
 }
-.recipes__videos_caption-span {
+.recipes__video-caption_span {
   flex-grow: 1;
 }
-.recipes__videos_caption:nth-of-type(2) {
+.recipes__video-caption:nth-of-type(2) {
   margin-right: 0px;
 }
