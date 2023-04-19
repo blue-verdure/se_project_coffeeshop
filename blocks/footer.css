@@ -8,16 +8,13 @@
   flex-wrap: wrap;
   padding-bottom: 60px;
   padding-left: 80px;
-  padding-right: 108px;
+  padding-right: 100px;
 }
 
 .footer__content {
-  margin-left: 80px;
-  margin-right: 100px;
   margin-bottom: 108px;
   display: flex;
   flex-direction: column;
-  align-items: end;
 }
 
 .footer__logo {
@@ -65,6 +62,8 @@
   line-height: 20px;
   color: white;
   transition: color 1s ease;
+  display: flex;
+  justify-content: center;
 }
 
 .footer__social-link:hover {

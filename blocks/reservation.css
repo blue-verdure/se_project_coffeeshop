@@ -24,8 +24,6 @@
 .reservation__form {
   padding-top: 0px;
   margin-bottom: 120px;
-  background-image: none;
-  background-color: rgba(0, 0, 0, 0);
   max-width: 385px;
   width: 100%;
 }

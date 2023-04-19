@@ -9,7 +9,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  width: 100%;
   z-index: 0;
   box-sizing: border-box;
   min-height: 720px;
@@ -20,7 +19,6 @@
   margin-top: 202px;
   margin-left: 80px;
   margin-bottom: 28px;
-  margin-right: 646px;
   max-width: 729px;
   text-align: left;
   font-family: "Inter", Arial, sans-serif;
@@ -30,26 +28,21 @@
   line-height: 72px;
 }
 
-.header__title .header__title_span-accent {
+.header__span-accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
-  line-height: 72px;
   color: #2f80ed;
-  margin-left: 0px;
-  padding-bottom: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
 }
 .header__image {
   position: absolute;
-  top: 96px; /*top position of 124 is too much when w=646. Only leaves 30px*/
+  top: 124px;
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__description {
@@ -62,23 +55,22 @@
   font-size: 20px;
   line-height: 30px;
   margin-left: 80px;
-  margin-top: 0;
-  margin-right: 646px; /*You said the margin is unnecessary, but I set it to the image width in order to prevent any overflow into the image*/
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
 .header__footer {
-  justify-self: flex-end;
   width: 100%;
   box-sizing: border-box;
   display: flex;
-  flex-wrap: wrap;
   margin: 0px 0px 0px 0px;
   padding-left: 80px;
   padding-right: 80px;
   padding-bottom: 40px;
   flex-direction: row;
   justify-content: space-between;
+  align-items: end;
+  margin-top: auto;
 }
 
 .header__paragraph {
@@ -88,12 +80,14 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  width: 51%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  flex-grow: 1;
 }
 
-.header__paragraph:nth-last-of-type(odd) {
+/*.header__paragraph:nth-last-of-type(odd) {
   width: 49%;
   height: 20px;
   margin-left: auto;
   text-align: right;
-}
+}*/
