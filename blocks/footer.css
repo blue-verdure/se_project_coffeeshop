@@ -63,7 +63,7 @@
   color: white;
   transition: color 1s ease;
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 .footer__social-link:hover {

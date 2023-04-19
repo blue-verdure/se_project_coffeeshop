@@ -13,6 +13,7 @@
   box-sizing: border-box;
   min-height: 720px;
   max-height: 800px;
+  height: 100%;
 }
 
 .header__title {
@@ -82,12 +83,4 @@
   color: #838383;
   margin-top: 0px;
   margin-bottom: 0px;
-  flex-grow: 1;
 }
-
-/*.header__paragraph:nth-last-of-type(odd) {
-  width: 49%;
-  height: 20px;
-  margin-left: auto;
-  text-align: right;
-}*/
